@@ -1,0 +1,77 @@
+/*Base*/
+
+
+
+
+.centre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacearound
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spacebetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo*/
+
+.margelogo
+{
+    margin-bottom: 10px;
+}
+
+/*Barre de Navigation*/
+
+.heightbarre
+{height: 100px;;
+}
+
+.navsize
+{
+   
+    width: 45%;
+    height: 100px;
+    background-color: grey;
+    
+}
+
+.linksize
+{
+    height: 99px;
+    background-color: red;
+    
+}
+
+.bordure :hover
+{
+    border: 0.5px blue solid;
+}
+
+.none
+{
+    text-decoration: none;
+}
+
+.bold
+{font-weight: bold;}
+
+/*SEARCH*/
+
+.toursearch
+{
+    width: 400px;
+    border-radius: 10px;
+    border: grey 1px solid;
+}
+
