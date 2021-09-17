@@ -1,7 +1,11 @@
 /*Base*/
 
 
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Raleway", "Sans serif";
+  margin: 0;
+}
 
 .centre
 {
@@ -42,15 +46,14 @@
    
     width: 45%;
     height: 100px;
-    
+   
     
 }
 
 .linksize
 {
-    width: 100%;
     height: 99px;
-   
+   width: 100%;
     
 }
 
@@ -75,3 +78,4 @@
     border-radius: 10px;
     border: grey 1px solid;
 }
+
