@@ -42,20 +42,21 @@
    
     width: 45%;
     height: 100px;
-    background-color: grey;
+    
     
 }
 
 .linksize
 {
+    width: 100%;
     height: 99px;
-    background-color: red;
+   
     
 }
 
-.bordure :hover
+.bordure:hover
 {
-    border: 0.5px blue solid;
+    border-top: 3px blue solid;
 }
 
 .none
@@ -74,4 +75,3 @@
     border-radius: 10px;
     border: grey 1px solid;
 }
-
