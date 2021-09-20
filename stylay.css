@@ -187,7 +187,21 @@ justify-content: flex-start;
 
 /* CARTES HEBERGEMENTS*/
 
-.bord:hover
+.sizeHeb
 {
-    border-top: 3px black solid;
+    flex: 2;
+    height: 650px;
+    background-color: yellow;
+    margin-right: 20px;
+    border-radius: 10px;
 }
+
+.sizePop
+{
+    flex: 1;
+    height: 650px;
+    background-color: green;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
