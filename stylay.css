@@ -1,122 +1,193 @@
 /*Base*/
 
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-body {
-  font-family: "Raleway", "Sans serif";
-  margin: 0;
-}
-
 .centre
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+{display: flex;
+justify-content: center;
+align-items: center;}
 
-.spacearound
+.spaceAround
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.spacebetween
+.spaceBetween
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/*Logo*/
-
-.margelogo
+.bordureNone
 {
-    margin-bottom: 10px;
+    border: none;
 }
 
-/*Barre de Navigation*/
 
-.heightbarre
-{height: 100px;;
+/*LOGO*/
+
+.margeLogo
+{margin-bottom: 13px;}
+
+/* NAVIGATEUR */ 
+.navSizeè
+{width: 45%;}
+
+.fullNavHeight
+{height: 100px;}
+
+.linkSize {
+    width: 140px;
+    height:99px;
 }
 
-.navsize
-{
-   
-    width: 45%;
-    height: 100px;
-   
-    
+html, body
+{font-family: 'Raleway', sans-serif;}
+
+
+.fontColorBlue
+{color: blue;
 }
 
-.linksize
-{
-    height: 99px;
-   width: 100%;
-    
-}
+.fontColorBlack
+{color: black;}
 
-.bordure:hover
-{
-    border-top: 3px #f2f2f2;
-}
+.titreFontSize
+{font-size: 20px;}
 
-.none
+.noDeco
 {
     text-decoration: none;
 }
 
-.bold
+.bordureNav
+{
+    border-top: 1px blue solid;
+}
+
+.bordureTrans
+{border-top: 1px transparent solid;}
+
+
+
+
+/* HEADER*/
+
+.gras
 {font-weight: bold;}
 
-/*SEARCH*/
 
-.toursearch
-{
-    width: 400px;
-    border-radius: 10px;
-    border: #f2f2f2 1px solid;
-}
+
+.contourSearch
+{width: 400px;
+border-radius: 10px;
+border: 1px solid #f2f2f2;}
 
 .iconeSize
 {
-    width: 50px;
     height: 50px;
+    width: 50px;
     border-radius: 10px 0 0 10px;
 }
 
 .backIcone
-{
-    background-color: #f2f2f2;
-}
+{background-color: rgb(193, 197, 197);}
 
-.search
+.search 
 {
     height: 50px;
     width: 230px;
-    color: Black;
+    color: black;
     font-size: 18px;
     font-weight: bold;
 }
 
 .paddingLeft
-{
-    padding-left: 10px;
-}
+{padding-left: 10px ;}
 
-/*BOUTON*/
+
+/*Bouton*/
 
 .backBlue
-{
-    background-color: blue;
-}
+{background-color: blue;}
 
-.button
+.boutonSearch
 {
     width: 120px;
     height: 50px;
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+}
+
+/*FILTRES*/
+
+.filtre
+{display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.margeFiltres
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.margeTitre
+{margin-right: 20px;}
+
+.filtreTextIcon
+{
+    border: 2px #bebcbc solid;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreIcon
+{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: blue;
+    background-color: #deebff;
+    margin-left: -2px;
+}
+
+.filtreText {height: 50px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 0 25px 25px 0;}
+
+.filtreTextIcon:hover > .filtreIcon
+{color: wheat;
+background-color:#0065fc ;}
+
+.filtreTextIcon:hover > .filtreText
+{color: #0065fc;}
+
+/*INFO*/
+
+.circleborder
+{border-radius: 50%;
+    height: 23px;
+    width: 23px;
+border: 1px #bebcbc solid;
+ }
+
+.iconColor
+{ color: blue;}
+
+.positionP
+{display: flex;
+justify-content: flex-start;
+}
+
+/* CARTES HEBERGEMENTS*/
+
+.bord:hover
+{
+    border-top: 3px black solid;
 }
